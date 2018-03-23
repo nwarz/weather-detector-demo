@@ -1,7 +1,7 @@
 # weather-detector-demo
-A simple REST service calls the OpenWeatherMap API to determine if it is currently snowing or if it is forecasted to snow in the next five days.
+A Spring Boot REST service calls the OpenWeatherMap API to determine if it is currently snowing or if it is forecasted to snow in the next five days.
 
-# Configuration and Installation
+## Configuration and Installation
 In src/main/java/com/nwarz/weather/Config.java :
 * Set the LAT and LON values to the latitude and longitude of your location
 * Set the APP_ID to your OpenWeatherMap API key (free tier API keys can be registered for at https://openweathermap.org/price)
